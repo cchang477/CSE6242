@@ -6,7 +6,7 @@ notes: <br>
 Go about using this LLM section in the following order:
 1. Use 1_summarizer.py to create output folder of firm review summaries.<br> Config file for the summarizer is 1_config.ini<br><br>
 2. Use 1_LLM_create_firm_summaries.ipynb to<br>
-&nbsp; - create 1_LLM_finetuning_training_dataset.pkl file (section 2)
+&nbsp; - create 1_LLM_finetuning_training_dataset.pkl file (section 2)<br>
 &nbsp; - create 1_summary_reviews.csv (section 4)<br><br>
 3. Use 2_finetuning_review_sentiment_analyzer.ipynb to<br>
 &nbsp; - create 2_data_dict.pkl (section 3)<br>
