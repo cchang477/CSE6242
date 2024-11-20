@@ -1,0 +1,20 @@
+.custom-slider .rc-slider-track {
+    background-color: #1E88E5;
+}
+
+.custom-slider .rc-slider-rail {
+    background-color: #E0E0E0;
+}
+
+.custom-slider .rc-slider-handle {
+    border-color: #1E88E5;
+}
+
+.custom-slider .rc-slider-handle:hover {
+    border-color: #1E88E5;
+}
+
+.custom-slider .rc-slider-handle:active {
+    border-color: #1E88E5;
+    box-shadow: 0 0 5px #1E88E5;
+} 
