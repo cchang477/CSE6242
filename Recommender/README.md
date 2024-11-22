@@ -1,3 +1,5 @@
+# Description
+---
 # Dream Job Navigator
 
 An interactive web application that helps users find similar companies based on their ideal job preferences.
@@ -73,4 +75,26 @@ The application will be available at `http://127.0.0.1:8050/` in your web browse
    - Maintains smooth user interaction with state management
 
 ## Note
-The application requires the company database file `firmInfo_cleaned_longProsCons_embeddings_utf8.csv` in the same directory.
+The application requires the company database file `firmInfo_cleaned_longProsCons_embeddings_utf8.csv` in the same directory. <br>
+
+---
+# Installation
+1. Create a Python 3.9 environment
+   - It is recommended to use an environment manager of your choice e.g. venv or Anaconda
+2. In a terminal with your python environment active, <br>
+from the root of this code folder, run
+> pip install -r requirements.txt
+    
+    pip may have to be substituted with pip3 depending on your environment setup
+Ensure all package installations are successful before moving on to execution.
+
+---
+# Execution
+1. In a terminal with your python environment active, <br>
+from the root of this code folder, run
+> python JobApp.py
+    
+    python may have to be substituted with python3 depending on your environment setup
+2. Open a browser to http://127.0.0.1:8050 or http://localhost:8050 and the dashboard should be running
+    - the link may be different if configurations or code is changed
+    - the exact browser link will be reflected in the terminal outputs
